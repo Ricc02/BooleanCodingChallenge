@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family:'Mulish', sans-serif;
+    color: white;
+    padding: 100px;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 80px;
+}
+
+header , h1{
+    color: lime;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+}
+
+nav{
+    background-color: lime;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section > h2{
+    display: inline-block;
+}
+
+
+.orange{
+    width: 50%;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.green{
+    width: 75%;
+    height: 30px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.red{
+    width: 30%;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+}
